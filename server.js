@@ -1,8 +1,9 @@
-const express = require('express');
 import Routes from './routes';
 
+const express = require('express');
+
 const server = express();
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
 
 Routes(server);
 
